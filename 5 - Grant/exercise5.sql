@@ -1,0 +1,8 @@
+/*
+You've hired an assistant for the bookstore named Martin.
+Grant him permission to view and update the Books table, 
+but he shouldn't be able to delete any records.
+IP address of Martinis martin@localhost .
+*/
+
+GRANT SELECT, INSERT, UPDATE ON Books TO 'martin'@'localhost'
